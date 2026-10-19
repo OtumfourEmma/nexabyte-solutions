@@ -68,6 +68,13 @@ nav {
     color: var(--cyan);
 }
 
+/* Logo image sizing */
+.logo img {
+    display: block;
+    height: 40px;
+    width: auto;
+}
+
 /* Replace this div with your actual logo image later */
 .logo-placeholder {
     width: 40px;
