@@ -1,4 +1,8 @@
-/* --- CSS VARIABLES (Your Brand Colors) --- */
+html {
+    scroll-padding-top: 80px; /* Adjust this if your header is taller */
+    scroll-behavior: smooth;  /* Makes the page scroll down smoothly instead of jumping */
+}
+
 :root {
     --navy: #0A2540;
     --cyan: #00C2CB;
@@ -8,7 +12,6 @@
     --text-light: #666666;
 }
 
-/* --- GLOBAL STYLES --- */
 * {
     margin: 0;
     padding: 0;
